@@ -87,7 +87,7 @@ body {
     justify-content: center;
     border-radius: 12px;
 }
-.Container #all {
+.Container .all {
     background-color: rgb(189, 188, 188);
     color: white;
     border: none;
