@@ -6,6 +6,7 @@
 body {
     width:100%;
     min-height: 100vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +14,11 @@ body {
     background: linear-gradient(30deg,white,lightpink,lightgreen,lightblue);
 }
 .Container {
+    min-width:310px;
     max-width:375px;
-    height:97%;
-    margin:50px 0px 75px 0px;
+    min-height: 450px;
+    max-height:650px;
+    margin:2px auto;
     background-color: rgba(49, 47, 47, 0.938);
     border-radius: 10px;
 }
@@ -107,7 +110,6 @@ body {
     margin: 0px 0px 0px 5.5px;
     font-size: 20px;
     padding: 10px;
-    
 }
 .row2 {
     margin:10px 0px;
@@ -142,7 +144,6 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
 }
 .row4 button {
     margin: 0px;
