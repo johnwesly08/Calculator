@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,66 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="Css/styles.css">
 </head>
+
 <body>
     <div class="Container">
+        <div class="brand">
+            <p id="title">Casio</p>
+            <ul id="shape">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </ul>
+            <p id="shapeDes">Two Way power</p>
+        </div>
         <div class="display">
             <input type="text" placeholder="0">
         </div>
         <div class="buttons">
             <div class="row1">
-                <button type="button">√</button>
-                <button type="button" onclick="myFunc();">OFF</button>
+                <p id="model">SX-300</p>
+                <button type="button" id="all">√</button>
+                <button type="button" onclick="myFunc();" id="all">OFF</button>
             </div>
             <div class="row2">
-                <button type="button">MC</button>
-                <button type="button">MR</button>
-                <button type="button">M+</button>
-                <button type="button">M-</button>
-                <button type="button">/</button>
+                <button type="button" id="all">MC</button>
+                <button type="button" id="all">MR</button>
+                <button type="button" id="all">M+</button>
+                <button type="button" id="all">M-</button>
+                <button type="button" id="all">/</button>
             </div>
             <div class="row3">
-                <button type="button">%</button>
-                <button type="button">7</button>
-                <button type="button">8</button>
-                <button type="button" value="num"onclick="myNum();">9</button>
-                <button type="button">*</button>
+                <button type="button" id="all">%</button>
+                <button type="button" id="all">7</button>
+                <button type="button" id="all">8</button>
+                <button type="button" id="all" value="num" onclick="myNum();">9</button>
+                <button type="button" id="all">*</button>
             </div>
             <div class="row4">
-                <button type="button">+/-</button>
-                <button type="button">4</button>
-                <button type="button">5</button>
-                <button type="button">6</button>
-                <button type="button">-</button>
+                <button type="button" id="all">+/-</button>
+                <button type="button" id="all">4</button>
+                <button type="button" id="all">5</button>
+                <button type="button" id="all">6</button>
+                <button type="button" id="all">-</button>
             </div>
             <div class="row5">
-                <button type="button">C</button>
-                <button type="button">1</button>
-                <button type="button">2</button>
-                <button type="button">3</button>
-                <button class="button1" type="button">+</button>
+                <button type="button" id="c">C</button>
+                <button type="button" id="all">1</button>
+                <button type="button" id="all">2</button>
+                <button type="button" id="all">3</button>
+                <button class="button1" type="button" id="all">+</button>
             </div>
             <div class="row6">
-                <button type="button">ON</button>
-                <button type="button">AC</button>
-                <button type="button">0</button>
-                <button type="button">.</button>
-                <button type="button">=</button>
+                <button type="button" id="on">ON</button>
+                <button type="button" id="ac">AC</button>
+                <button type="button" id="all">0</button>
+                <button type="button" id="all">.</button>
+                <button type="button" id="all">=</button>
             </div>
-        </div> 
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
